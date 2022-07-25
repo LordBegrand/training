@@ -15,7 +15,7 @@ while True:
     
     if choice == '1':
         question = input("Insert your question")
-        answer = getpass.getpass("Inserisci la risposta alla domanda")
+        answer = getpass.getpass("Insert the answer")
         point = answer
 
     elif choice == '2':
